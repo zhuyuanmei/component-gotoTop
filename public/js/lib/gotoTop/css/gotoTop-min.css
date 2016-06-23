@@ -1,0 +1,7 @@
+@charset "utf-8";
+.ui-gotop{position:fixed;display:none;width:50px;height:50px;bottom:10px;right:10px;z-index:999;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.ui-gotop div{margin:5px;width:40px;height:40px;border-radius:2px;-webkit-box-shadow:0 0 5px #9c9c9c;opacity:.9;background:#454545 url(../images/ui-gotop-icon.png) no-repeat center center;-webkit-background-size:18px 15px}
+#thelist{list-style:none;padding:0;margin:0;width:100%;text-align:left}
+#thelist li{height:44px;line-height:44px;color:#333;border-bottom:1px solid #e7e7e7;background-color:#fafafa;font-size:16px;font-weight:700;padding:0 10px}
+@media all and (min-device-width:768px) and (max-device-width:1024px){.ui-gotop{width:60px;height:60px}
+    .ui-gotop div{width:48px;height:48px;-webkit-background-size:22px 18px}}
